@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indiquer le titre de la page</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+
+    <script src="js/script.js"></script>
+</head>
+<body>
+
+<div class="wrapper">
+
+    <header class="header-page">
+
+        <a href="index.html"><img src="images/ogre.png" alt=""></a>
+        <a href="index.html"><h1>Club Ogre</h1></a>
+        <nav class="main-nav">
+            <label for="show-menu" class="show-menu"><i class="material-icons">
+                menu
+            </i></label>
+
+
+            <input type="checkbox" class="toggle-menu" id="show-menu" hidden>
+            <ul class="main-menu">
+                <li><a href="index.html">Acceuil</a></li>
+                <li>
+                    <a href="#">Categorie</a>
+                    <ul>
+                        <li><a href="#">Item 1</a></li>
+                        <li><a href="#">Item 2</a></li>
+                        <li><a href="#">Item 3</a></li>
+                    </ul>
+
+
+                </li>
+                <li><a href="ajoutArticle.html">Ajouter Article</a></li>
+                <li><a href="inscription.html">Inscription</a></li>
+                <li id="open"><a href="#" >Connexion</a></li>
+                <li>
+                    <a href="#">Compte</a>
+                    <ul>
+                        <li><a href="profil.html">Modifier</a></li>
+                        <li><a href="#">Déconnexion</a></li>
+                    </ul>
+
+                </li>
+
+            </ul>
+        </nav>
+    </header>
+    <article class="article">
+
+
+
+                <img src="/images/xbox.png" alt="article 1">
+
+
+
+
+
+
+
+
+                    <p class="date">Date 21/11/2019</p>
+                    <h4>Nouvelle Console à l'OGRE!</h4>
+                    <p class="auteur">Jasmine thibeau</p>
+                    <p class="desc">LLorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+
+
+
+
+
+
+
+
+
+
+    </article>
+    <section id="option-connect" class="before-pop">
+        <div>
+            <form  action="" method="post">
+
+
+                <a href="#" id="close"><i class="material-icons">clear</i></a>
+                <input type="text" name="prenom"
+                       placeholder="Inscrire votre courriel" required />
+
+
+                <input type="text" name="nom"
+                       placeholder="Mot de passe" required />
+
+                <a href="#" class="myButton" type="submit" id="close-pop">ENVOYER</a>
+
+            </form>
+        </div>
+    </section>
+
+
+
+
+</div>
+
+</body>
+</html>
